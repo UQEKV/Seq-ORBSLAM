@@ -1,7 +1,9 @@
+# Seq-ORBSLAM
+
 The Seq-ORBSLAM is based on ORBSLAM2, which is used a sequence-based loop closure detection we proposed. 
 The Vocabulary file of ORBSLAM 2 are not uploaded in this repository. Pleased downloading these files by yourself.
 
-Author: Jiangqiu Chen 
+**Authors:** Jiangqiu Chen 
 
 13.09.2021
 
