@@ -7,7 +7,7 @@ The Vocabulary file of ORBSLAM 2 are not uploaded in this repository. Pleased do
 
 13.09.2021
 
-##### Related Work:
+## Related Work:
 
 # ORB-SLAM2
 **Authors:** [Raul Mur-Artal](http://webdiis.unizar.es/~raulmur/), [Juan D. Tardos](http://webdiis.unizar.es/~jdtardos/), [J. M. M. Montiel](http://webdiis.unizar.es/~josemari/) and [Dorian Galvez-Lopez](http://doriangalvez.com/) ([DBoW2](https://github.com/dorian3d/DBoW2))
