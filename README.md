@@ -1,5 +1,7 @@
 The Seq-ORBSLAM is based on ORBSLAM2, which is used a sequence-based loop closure detection we proposed. 
 
+Author: Jiangqiu Chen
+
 
 
 
