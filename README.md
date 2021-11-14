@@ -9,7 +9,7 @@ The BoW model using the pre-trained vocabulary is not applied in our loop clours
 
 13.09.2021
 
-# Result
+# Result of Seq-ORBSLAM
 
 <p align="center">
 <img src="result/place_matching.jpeg">
