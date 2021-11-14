@@ -1,4 +1,4 @@
-# Seq-ORBSLAM
+# Seq-ORBSLAM: Sequence-based Loop Closure Detection for ORBSLAM
 
 The Seq-ORBSLAM is based on ORBSLAM2, which is used a sequence-based loop closure detection we proposed. 
 The Vocabulary file of ORBSLAM 2 are not uploaded in this repository. Pleased downloading these files by yourself.
@@ -7,13 +7,17 @@ The BoW model using the pre-trained vocabulary is not applied in our loop clours
 
 **Authors:** Jiangqiu Chen 
 
+# Abstract
+
+Loop closure detection plays a vital role in monocular Simultaneous Localisation and Mapping (SLAM) to re-localise and constructs the geometric constraints for scale drift elim- ination. The state-of-the-art ORBSLAM based on the ORB feature uses the visual bag-of- words model to detect the loop. However, the ORB feature is subject to illumination variance. Although SeqSLAM is one of the most robust localisation algorithms which can handle enor- mous changing environmental conditions, including changes in light, seasons, weather, and day and night, it can not be directly applied to detect a loop in a SLAM system. In this thesis, we proposed a modified SeqSLAM integrated into ORBSLAM to detect the loop for scale drift removing, which is named Seq-ORBSLAM. The difference matrix of SeqSLAM must be subjected to enhance contrast, but the contrast enhancement will remove the loop closure area as noise. A Dissimilarity Ratio Matrix with high contrast (DRM) is proposed to match the local sequence instead of the difference matrix. The keyframe selection strategy and co- visibility graph of ORBSLAM help us obtain the local DRM that can be applied to detect the closed-loop. Moreover, we propose a closed-loop candidate filter based on Laplace distribu- tion, which effectively selects the good-matched closed-loop. Compared with the ORBSLAM system and visual odometry, our Seq-ORBSLAM system is as effective as ORBSLAM. It is impressive that the precision of our modified SeqSLAM is much higher than the bag-of-words model applied in ORBSLAM.Loop closure detection plays a vital role in monocular Simultaneous Localisation and Mapping (SLAM) to re-localise and constructs the geometric constraints for scale drift elim- ination. The state-of-the-art ORBSLAM based on the ORB feature uses the visual bag-of- words model to detect the loop. However, the ORB feature is subject to illumination variance. Although SeqSLAM is one of the most robust localisation algorithms which can handle enor- mous changing environmental conditions, including changes in light, seasons, weather, and day and night, it can not be directly applied to detect a loop in a SLAM system. In this thesis, we proposed a modified SeqSLAM integrated into ORBSLAM to detect the loop for scale drift removing, which is named Seq-ORBSLAM. The difference matrix of SeqSLAM must be subjected to enhance contrast, but the contrast enhancement will remove the loop closure area as noise. A Dissimilarity Ratio Matrix with high contrast (DRM) is proposed to match the local sequence instead of the difference matrix. The keyframe selection strategy and co- visibility graph of ORBSLAM help us obtain the local DRM that can be applied to detect the closed-loop. Moreover, we propose a closed-loop candidate filter based on Laplace distribu- tion, which effectively selects the good-matched closed-loop. Compared with the ORBSLAM system and visual odometry, our Seq-ORBSLAM system is as effective as ORBSLAM. It is impressive that the precision of our modified SeqSLAM is much higher than the bag-of-words model applied in ORBSLAM.
+
 ## Citation
 
 If you use this toolbox or benchmark in your research, please cite this project.
 
 ```
 @article{Seq-ORBSLAM,
-  title={A Robust Data-Driven Approach for Dynamics Model Identification in Trajectory Planning},
+  title={Seq-ORBSLAM: Sequence-based Loop Closure Detection for ORBSLAM},
   author={Chen, Jiangqiu and Mayol-Cuevas, Walterio},
   year={2021}
 }
