@@ -9,6 +9,19 @@ The BoW model using the pre-trained vocabulary is not applied in our loop clours
 
 13.09.2021
 
+# Result
+
+<p align="center">
+<img src="result/place_matching.jpeg">
+<img src="result/mapping_loop_closure.jpeg">
+<img src="result/compare1.jpeg">
+<img src="result/compare2.jpeg">
+<img src="result/difference_matrix.jpeg">
+</p>
+
+
+
+
 ## Related Work:
 
 # ORB-SLAM2
