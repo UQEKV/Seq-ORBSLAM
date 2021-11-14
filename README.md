@@ -7,6 +7,18 @@ The BoW model using the pre-trained vocabulary is not applied in our loop clours
 
 **Authors:** Jiangqiu Chen 
 
+## Citation
+
+If you use this toolbox or benchmark in your research, please cite this project.
+
+```
+@article{Seq-ORBSLAM,
+  title={A Robust Data-Driven Approach for Dynamics Model Identification in Trajectory Planning},
+  author={Chen, Jiangqiu and Mayol-Cuevas, Walterio},
+  year={2021}
+}
+```
+
 13.09.2021
 
 # Result of Seq-ORBSLAM
